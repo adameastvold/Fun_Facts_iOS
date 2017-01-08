@@ -12,6 +12,8 @@
 		665662061E219AAA00ED916F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665662041E219AAA00ED916F /* Main.storyboard */; };
 		665662081E219AAA00ED916F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665662071E219AAA00ED916F /* Assets.xcassets */; };
 		6656620B1E219AAA00ED916F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665662091E219AAA00ED916F /* LaunchScreen.storyboard */; };
+		665662131E21B35100ED916F /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665662121E21B35100ED916F /* FactProvider.swift */; };
+		665662151E21C6CB00ED916F /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665662141E21C6CB00ED916F /* BackgroundColorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		665662071E219AAA00ED916F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6656620A1E219AAA00ED916F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6656620C1E219AAA00ED916F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665662121E21B35100ED916F /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		665662141E21C6CB00ED916F /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				665662071E219AAA00ED916F /* Assets.xcassets */,
 				665662091E219AAA00ED916F /* LaunchScreen.storyboard */,
 				6656620C1E219AAA00ED916F /* Info.plist */,
+				665662121E21B35100ED916F /* FactProvider.swift */,
+				665662141E21C6CB00ED916F /* BackgroundColorProvider.swift */,
 			);
 			path = FunFactsApp;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					665661FC1E219AAA00ED916F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YZQZUTQ7AR;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +145,8 @@
 			files = (
 				665662031E219AAA00ED916F /* ViewController.swift in Sources */,
 				665662011E219AAA00ED916F /* AppDelegate.swift in Sources */,
+				665662151E21C6CB00ED916F /* BackgroundColorProvider.swift in Sources */,
+				665662131E21B35100ED916F /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZQZUTQ7AR;
 				INFOPLIST_FILE = FunFactsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NewLion.FunFactsApp;
@@ -270,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZQZUTQ7AR;
 				INFOPLIST_FILE = FunFactsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NewLion.FunFactsApp;
